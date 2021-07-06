@@ -1,0 +1,17 @@
+{
+  "en": {
+    "home": "/",
+    "other_page": "/hello-world",
+    "just_another_page": "/just/another-page"
+  },
+  "de": {
+    "home": "/",
+    "other_page": "/hallo-welt",
+    "just_another_page": "/noch/eine-andere-seite"
+  },
+  "es": {
+    "home": "/",
+    "other_page": "/hola-mundo",
+    "just_another_page": "/solo/otra-pagina"
+  }
+}
