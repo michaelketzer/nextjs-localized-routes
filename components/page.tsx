@@ -20,6 +20,12 @@ export default function Page(): ReactElement {
       <button>Switch to locale <b>{locale}</b></button>
     </Route>)}
 
+
+    <h2>{'Routes for "home" route ident'}</h2>
+    {ctx.alternateLanguages.map((locale) => <Route key={locale} locale={locale} routeIdent={'home'}>
+      <button>Switch to routeIdent: <b>home</b>, locale: <b>{locale}</b></button>
+    </Route>)}
+
     <br /><br />
     <h2>{'Routes for "other_page" route ident'}</h2>
     {ctx.alternateLanguages.map((locale) => <Route key={locale} locale={locale} routeIdent={'other_page'}>
